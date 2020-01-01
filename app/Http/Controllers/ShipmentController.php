@@ -80,6 +80,6 @@ class ShipmentController extends Controller
      */
     public function destroy(Shipment $shipment)
     {
-        //
+        dd($shipment);
     }
 }
